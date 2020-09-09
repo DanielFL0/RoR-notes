@@ -5,6 +5,8 @@
 # Multiplication *
 # Division /
 # Modulus %
+# This time use if-elsif-else branches to select a operation according to the
+# user's input
 
 def add(first_num, second_num)
   first_num.to_f + second_num.to_f
