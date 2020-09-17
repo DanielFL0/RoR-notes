@@ -1,5 +1,7 @@
 module Hash
     require 'bcrypt'
+    puts "Module HASH activated"
+
     def Hash.create_hash_digest(password)
         BCrypt::Password.create(password)
     end
